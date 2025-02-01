@@ -9,6 +9,7 @@ import { ServiceComponent } from './services/service/service.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { LoginComponent } from './components/login/login.component';
 import { RouterLink } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { RouterLink } from '@angular/router';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,RouterLink,
+    AppRoutingModule,RouterLink,ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
